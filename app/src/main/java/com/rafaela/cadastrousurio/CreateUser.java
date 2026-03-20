@@ -31,7 +31,7 @@ public class CreateUser extends AppCompatActivity {
             if(!nome.isEmpty())
             {
 
-                MainActivity.listaNomes.add(nome + "(" + email +")");
+                MainActivity.listaNomes.add(nome + " (" + email +") ");
                 finish();
             }
         });
